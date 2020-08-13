@@ -29,6 +29,15 @@ new_element.setAttribute("src", "https://cdn.jsdelivr.net/npm/eruda");
 document.body.appendChild(new_element)
 eruda.init()
 ```
+
+## 书签
+```javascript
+javascript:(function () { var script = document.createElement('script'); script.src="https://cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { 
+eruda.init()} })();
+
+javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/vconsole@3.3.4/dist/vconsole.min.js"; document.body.appendChild(script); script.onload = function () { var vConsole = new VConsole(); } })();
+
+```
 ## Demo
 
 ![Demo](./qrcode.png)
