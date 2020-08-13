@@ -21,7 +21,14 @@
 [license-image]: https://img.shields.io/npm/l/eruda.svg
 
 Eruda 是一个专为手机网页前端设计的调试面板，类似 DevTools 的迷你版，其主要功能包括：捕获 console 日志、检查元素状态、捕获XHR请求、显示本地存储和 Cookie 信息等等。
-
+## 浏览器输入体验一下 Demo
+```javascript
+new_element = document.createElement("script");
+new_element.setAttribute("type", "text/javascript");
+new_element.setAttribute("src", "https://cdn.jsdelivr.net/npm/eruda");
+document.body.appendChild(new_element)
+eruda.init()
+```
 ## Demo
 
 ![Demo](./qrcode.png)
